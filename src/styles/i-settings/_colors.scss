@@ -1,9 +1,9 @@
 /* === Neutrals === */
-$color-light: hsla(0, 0%, 100%, 1);
-$color-dark: hsla(0, 0%, 0%, 1);
+$color-light: hsl(0, 0%, 100%, 1);
+$color-dark: hsl(0, 0%, 0%, 1);
 
 /* === Palette === */
-$dark-purple: rgba(91, 20, 171, 1);
-$light-purple: rgba(182, 186, 231, 0.65);
+$dark-purple: hsl(268,79,37);
+$light-purple: hsl(235,51,81);
 $box-shadow: 0 9px 15px -9px #000;
 
