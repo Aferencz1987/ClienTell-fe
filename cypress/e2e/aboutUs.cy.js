@@ -4,7 +4,7 @@ describe('About Us View', () => {
     beforeEach(() => {
       cy.intercept(
         'POST',
-        'https://date-em-rate-em-be.herokuapp.com/graphql',
+        'https://clientell-fe.onrender.com/graphql',
         (req) => {
             //Queries
           aliasQuery(req, 'Clients');
